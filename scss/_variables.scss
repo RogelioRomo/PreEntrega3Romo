@@ -1,0 +1,58 @@
+//Paleta de colores
+$color-uno: #1B2021;
+$color-dos: #a6a867;
+$color-tres: #E3DCC2;
+
+
+//Font size
+$font-size-uno: 3.125rem;
+$font-size-dos: 1.875rem;
+$font-size-tres: 2.813rem;
+
+//Paddings y gaps
+$padding-uno: 1.25rem;
+$padding-dos: 0.625rem 3.125rem;
+$padding-tres: 0.938rem 0px 0px 0.938rem;
+$padding-cuatro: 3.125rem 6.25rem;
+$padding-cinco: 0 1.875rem;
+$padding-seis: 0.938rem 1.875rem;
+$padding-siete: 
+$padding-bottom-uno: 1.875rem;
+$gap-uno: 1.25rem;
+
+//Mixins
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-row-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin flex-row-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-column-space-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+//me quede en el minuto 3255
