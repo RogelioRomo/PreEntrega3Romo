@@ -1,0 +1,25 @@
+.contentInicio{
+    @include flex-column-space-between;
+}
+
+.carrouselInicio{
+    background-color: $color-uno;
+}
+
+.carrouselImg{
+    height: 37.5rem;
+}
+
+.inicioSection2{
+    color: $color-tres;
+    padding-bottom: $padding-bottom-uno;
+}
+
+.biografia{
+    padding: $padding-cinco;
+    text-align: justify;
+}
+
+.parrafosInicio{
+    padding: $padding-cuatro;
+}

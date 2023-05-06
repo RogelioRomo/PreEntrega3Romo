@@ -1,2 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  /* Para decorar la letra */
+  text-decoration: none;
+  /* Color de la letra */
+  color: #1B2021;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.875rem;
+}
+
+h1, h3 {
+  font-size: 2.813rem;
+  padding: 0.938rem 0px 0px 0.938rem;
+}
+
+header {
+  background-color: #a6a867;
+  font-weight: bold;
+}
+
+/* Para darle estilo a las listas, en este caso remover los bullets */
+ul, ol {
+  list-style: none;
+}
+
+/* Para font size del titulo*/
+.titulo {
+  font-size: 3.125rem;
+}
+
+.navmenu {
+  padding: 3.125rem 3.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1.25rem;
+  font-size: 1.875rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  /* Color de la pill */
+  background-color: #E3DCC2;
+  /* Color de la letra cuando el pill esta sobre el texto */
+  color: #1B2021;
+}
+
+.navColor {
+  color: #1B2021;
+}
+
+.content {
+  flex: 1;
+  color: #E3DCC2;
+  padding: 1.25rem;
+}
+
+html, body {
+  color: #1B2021;
+  background-color: #1B2021;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #a6a867;
+  flex-shrink: 0;
+}
+
+.imgfooter {
+  width: 1.875rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.footermenu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  font-size: 1.875rem;
+}
+
+.cssfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.625rem 3.125rem;
+  font-weight: bold;
+}
+
+.contentInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carrouselInicio {
+  background-color: #1B2021;
+}
+
+.carrouselImg {
+  height: 37.5rem;
+}
+
+.inicioSection2 {
+  color: #E3DCC2;
+  padding-bottom: 1.875rem;
+}
+
+.biografia {
+  padding: 0 1.875rem;
+  text-align: justify;
+}
+
+.parrafosInicio {
+  padding: 3.125rem 6.25rem;
+}
+
+.imgdiscografia {
+  width: 100rem;
+  display: block;
+}
+
+.accordionText {
+  font-size: 1.875rem;
+}
+
+.contacto {
+  font-size: 1.875rem;
+}
+
+.mapaContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.spotifyPlayer1, .spotifyPlayer2 {
+  padding: 0.938rem 1.875rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
-/*  */

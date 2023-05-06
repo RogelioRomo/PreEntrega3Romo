@@ -1,0 +1,7 @@
+.contacto{
+    font-size: $font-size-dos;
+}
+
+.mapaContacto{
+    @include flex-row-center;
+}

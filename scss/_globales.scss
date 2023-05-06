@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    /* Para decorar la letra */
+    text-decoration: none;
+    /* Color de la letra */
+    color: $color-uno;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    font-size: $font-size-dos;
+}
+
+h1, h3{
+    font-size: $font-size-tres;
+    padding: $padding-tres;
+}
+
+header{
+    background-color: $color-dos;
+    font-weight: bold;
+}
+
+/* Para darle estilo a las listas, en este caso remover los bullets */
+ul, ol{
+    list-style: none;
+}
+
+/* Para font size del titulo*/
+.titulo{
+    font-size: $font-size-uno;
+}
+
+.navmenu{
+    padding: $padding-siete;
+    @include flex-row-space-between;
+}
+
+.menu{
+    @include flex-row-space-evenly;
+    gap: $gap-uno;
+    font-size: $font-size-dos;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    /* Color de la pill */
+    background-color: $color-tres;
+    /* Color de la letra cuando el pill esta sobre el texto */
+    color: $color-uno;
+}
+
+.navColor{
+    color: $color-uno;
+}
+
+.content{
+    flex: 1;
+    color: $color-tres;
+    padding: $padding-uno;
+}
+
+html, body{
+    color: $color-uno;
+    background-color: $color-uno;
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    @include flex-column;
+}
+
+footer{
+    background-color: $color-dos;
+    flex-shrink: 0;
+}
+
+.imgfooter{
+    width: 1.875rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.footermenu{
+    @include flex-row;
+    gap: $gap-uno;
+    font-size: $font-size-dos;
+}
+
+.cssfooter{
+    @include flex-row-space-between;
+    padding: $padding-dos;
+    font-weight: bold;
+}
+
+
