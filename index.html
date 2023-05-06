@@ -39,12 +39,14 @@
         </symbol>
     </svg>
 
+    <!-- Menu de navegacion -->
     <div class="wrapper">
         <header class="navmenu">
             <a href="index.html">
                 <h2 class="titulo">Charles Mingus</h2>
             </a>
             <nav>
+                <!-- Aqui usamos bootstrap para dar estilo al menu y se cambia el estilo con clases para el color, pills, hovers -->
                 <ul class="menu nav nav-pills">
                     <li class="nav-item"><a class="nav-link navColor active" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link navColor" href="pages/discografia.html">Discografia</a></li>
@@ -55,9 +57,11 @@
             </nav>
         </header>
 
-
+        <!-- Empieza el main -->
         <main class="contentInicio content">
+            <!-- No muestro el titulo porque ya esta activo el pill en el menu -->
             <h1 class="visually-hidden">Inicio</h1>
+            <!-- El carrusel se ingresa en esta parte -->
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
@@ -69,7 +73,9 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <!-- Con la clase carrouselInicio se define el color de fondo del carrousel -->
                         <div class="d-flex justify-content-center align-items-center carrouselInicio">
+                            <!-- Con la clase carrouselImg se define el tamano de la imagen para que todas sean iguales -->
                             <img src="img/Charlesmingus2.jpg" class="d-block carrouselImg" alt="Charlesmingus1">
                         </div>
                     </div>
@@ -97,7 +103,9 @@
             <div>
                 <section class="inicioSection2">
                     <h3>Biografía</h3>
+                    <!-- Biografia justifica y agrega padding al texto -->
                     <div class="biografia">
+                        <!-- parrafosInicio le da padding -->
                         <p class="parrafosInicio">Charles Mingus (Nogales, Arizona, 22 de abril de 1922-Cuernavaca,
                             México, 5 de enero de 1979)
                             fue un contrabajista, compositor, director de big band y pianista estadounidense de jazz.
@@ -116,7 +124,9 @@
             </div>
         </main>
 
+        <!-- Aqui empieza el footer se mantiene igual en todas las paginas -->
         <footer>
+            <!-- cssfooter activa flexbox y le da un space between a cada elemento; iconos, faq y sin fines de lucro -->
             <div class="cssfooter">
                 <div>
                     <p><a href="pages/faq.html">FAQ</a></p>
@@ -125,6 +135,7 @@
                     <p>Sin fines de lucro</p>
                 </div>
                 <div>
+                    <!-- Con footermenu se activa flexbox para convertirlo a un row y que cada icono siga uno despues de otro -->
                     <ul class="footermenu">
                         <li><svg width="30" height="30">
                                 <use xlink:href="#twitter" />

@@ -13,8 +13,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../img/saxophone.png">
     <!-- Etiquetas SEO -->
-    <meta name="description"
-        content="Aqui encontraras algunos albumes del artista y sus rates">
+    <meta name="description" content="Aqui encontraras algunos albumes del artista y sus rates">
     <meta name="keywords" content="CharlesMingus, discografia, rate your music, albumes">
     <!-- Titulo -->
     <title>Charles Mingus│Discografia</title>
@@ -53,12 +52,16 @@
             </nav>
         </header>
 
+        <!-- Empieza el main -->
         <main class="content">
+            <!-- No muestro el titulo porque ya esta activo el pill en el menu -->
             <h1 class="visually-hidden">Discografia</h1>
             <div class="row">
+                <!-- Dentro de este div se utiliza bootstrap grids para el responsive -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <a target="_blank" title="The black saint and the sinner lady"
                         href="https://rateyourmusic.com/release/album/mingus/the-black-saint-and-the-sinner-lady/">
+                        <!-- imgdiscografia solo da tamano a las imagenes para que todas sean iguales -->
                         <img src="../img/Theblacksaintandthesinnerlady.jpg" alt="The black saint and the sinner lady"
                             class="img-fluid imgdiscografia">
                     </a>
@@ -81,7 +84,8 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <a target="_blank" title="Let my children hear music"
                         href="https://rateyourmusic.com/release/album/charles-mingus/let-my-children-hear-music/">
-                        <img src="../img/LetMyChildrenHearMusic.jpg" alt="Let my children hear music" class="img-fluid imgdiscografia">
+                        <img src="../img/LetMyChildrenHearMusic.jpg" alt="Let my children hear music"
+                            class="img-fluid imgdiscografia">
                     </a>
                     <p>Calificación en Rate your music: 4.03 / 5.0</p>
                 </div>
@@ -103,29 +107,30 @@
             </div>
         </main>
 
-            <footer>
-                <div class="cssfooter">
-                    <div>
-                        <p><a href="./faq.html">FAQ</a></p>
-                    </div>
-                    <div>
-                        <p>Sin fines de lucro</p>
-                    </div>
-                    <div>
-                        <ul class="footermenu">
-                            <li><svg width="30" height="30">
-                                    <use xlink:href="#twitter" />
-                                </svg></li>
-                            <li><svg width="30" height="30">
-                                    <use xlink:href="#instagram" />
-                                </svg></li>
-                            <li><svg width="30" height="30">
-                                    <use xlink:href="#facebook" />
-                                </svg></li>
-                        </ul>
-                    </div>
+        <!-- Aqui empieza el footer se mantiene igual en todas las paginas -->
+        <footer>
+            <div class="cssfooter">
+                <div>
+                    <p><a href="./faq.html">FAQ</a></p>
                 </div>
-            </footer>
+                <div>
+                    <p>Sin fines de lucro</p>
+                </div>
+                <div>
+                    <ul class="footermenu">
+                        <li><svg width="30" height="30">
+                                <use xlink:href="#twitter" />
+                            </svg></li>
+                        <li><svg width="30" height="30">
+                                <use xlink:href="#instagram" />
+                            </svg></li>
+                        <li><svg width="30" height="30">
+                                <use xlink:href="#facebook" />
+                            </svg></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
