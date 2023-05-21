@@ -40,15 +40,27 @@
             <a href="../index.html">
                 <h2 class="titulo">Charles Mingus</h2>
             </a>
-            <nav>
-                <ul class="menu nav nav-pills">
-                    <li class="nav-item"><a class="nav-link navColor" href="../index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link navColor active" href="discografia.html">Discografia</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link navColor" href="musica.html">Musica</a></li>
-                    <li class="nav-item"><a class="nav-link navColor" href="faq.html">Faq</a></li>
-                    <li class="nav-item"><a class="nav-link navColor" href="contacto.html">Contacto</a></li>
-                </ul>
+            <!-- Se aplica menu hamburguesa con bootstrap -->
+            <nav class="navbar navbar-expand-xxl">
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        <!-- Aqui usamos bootstrap para dar estilo al menu y se cambia el estilo con clases para el color, pills, hovers -->
+                        <ul class="menu nav nav-pills">
+                            <li class="nav-item"><a class="nav-link navColor" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link navColor active"
+                                    href="discografia.html">Discografia</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link navColor" href="musica.html">Musica</a></li>
+                            <li class="nav-item"><a class="nav-link navColor" href="faq.html">Faq</a></li>
+                            <li class="nav-item"><a class="nav-link navColor" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
